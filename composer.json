@@ -2,10 +2,11 @@
     "require": {
         "johnpbloch/wordpress": "^6.1.1",
         "wpackagist-plugin/wordpress-seo": "^20.3",
-        "wpackagist-theme/twentyseventeen": "^2.9",
+        "wpackagist-theme/hello-elementor": "^2.7.1",
         "wpackagist-plugin/query-monitor": "^3.9",
         "wpackagist-plugin/classic-editor": "^1.6",
-        "wpackagist-plugin/fakerpress": "^0.5.3"
+        "wpackagist-plugin/fakerpress": "^0.5.3",
+        "wpackagist-plugin/elementor": "^3.5.3"
     },
     "config": {
         "allow-plugins": {
@@ -14,8 +15,8 @@
         }
     },
     "scripts": {
-        "autoload": "cd wp-content/plugins/bricolhelp && composer dump-autoload",
-        "reactivate-plugin": "wp plugin deactivate bricolhelp && wp plugin activate bricolhelp",
+        "autoload": "cd wp-content/plugins/doudous-tout-doux && composer dump-autoload",
+        "reactivate-plugin": "wp plugin deactivate doudous-tout-doux && wp plugin activate doudous-tout-doux",
         "uploads-rights": "sudo chown -R $USER:www-data wp-content/uploads",
         "uploads-rights2": "sudo chmod 775 -R wp-content"
     },

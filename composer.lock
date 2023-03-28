@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "53862e813f88563c2fc1dbbfdfd11d7b",
+    "content-hash": "ad7eb04c035459c1484ba79c6ae04156",
     "packages": [
         {
             "name": "composer/installers",
@@ -318,6 +318,24 @@
             "homepage": "https://wordpress.org/plugins/classic-editor/"
         },
         {
+            "name": "wpackagist-plugin/elementor",
+            "version": "3.11.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/elementor/",
+                "reference": "tags/3.11.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/elementor.3.11.5.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/elementor/"
+        },
+        {
             "name": "wpackagist-plugin/fakerpress",
             "version": "0.5.3",
             "source": {
@@ -372,22 +390,22 @@
             "homepage": "https://wordpress.org/plugins/wordpress-seo/"
         },
         {
-            "name": "wpackagist-theme/twentyseventeen",
-            "version": "2.9",
+            "name": "wpackagist-theme/hello-elementor",
+            "version": "2.7.1",
             "source": {
                 "type": "svn",
-                "url": "https://themes.svn.wordpress.org/twentyseventeen/",
-                "reference": "2.9"
+                "url": "https://themes.svn.wordpress.org/hello-elementor/",
+                "reference": "2.7.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/twentyseventeen.2.9.zip"
+                "url": "https://downloads.wordpress.org/theme/hello-elementor.2.7.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-theme",
-            "homepage": "https://wordpress.org/themes/twentyseventeen/"
+            "homepage": "https://wordpress.org/themes/hello-elementor/"
         }
     ],
     "packages-dev": [],
