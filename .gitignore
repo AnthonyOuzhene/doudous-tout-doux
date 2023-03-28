@@ -9,7 +9,8 @@ wp-config.php
 /wp-content/plugins/*
 !/wp-content/plugins
 
-!/wp-content/themes/twentyseventeen
-!/wp-content/plugins/bricolhelp
+!/wp-content/themes/doudous-tout-doux
+!/wp-content/plugins/doudous-tout-doux
+!/wp-content/uploads
 
 install.md

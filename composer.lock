@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ad7eb04c035459c1484ba79c6ae04156",
+    "content-hash": "4f5411e8e05f2415544483e2fa9e84cd",
     "packages": [
         {
             "name": "composer/installers",
@@ -318,24 +318,6 @@
             "homepage": "https://wordpress.org/plugins/classic-editor/"
         },
         {
-            "name": "wpackagist-plugin/elementor",
-            "version": "3.11.5",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/elementor/",
-                "reference": "tags/3.11.5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elementor.3.11.5.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/elementor/"
-        },
-        {
             "name": "wpackagist-plugin/fakerpress",
             "version": "0.5.3",
             "source": {
@@ -373,15 +355,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "20.3",
+            "version": "20.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/20.3"
+                "reference": "tags/20.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.20.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.20.4.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
