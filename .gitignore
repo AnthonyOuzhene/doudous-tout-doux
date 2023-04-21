@@ -9,8 +9,8 @@ wp-config.php
 /wp-content/plugins/*
 !/wp-content/plugins
 
-!/wp-content/themes/doudous-tout-doux
-!/wp-content/plugins/doudous-tout-doux
+!/wp-content/themes/doudousToutDoux
+!/wp-content/plugins/doudousToutDoux
 !/wp-content/uploads
 
 install.md

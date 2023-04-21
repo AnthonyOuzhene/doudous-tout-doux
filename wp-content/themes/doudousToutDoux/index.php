@@ -6,20 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Les Doudous Tout Doux - Couture faite main et DIY</title>
-	<link rel="stylesheet" href="./assets/scss/main.scss" />
-
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/scss/main.scss">
+    <link rel="stylesheet" href="<?= get_theme_file_uri() ?>/src/css/style.css">
 </head>
 
 <body>
     <header>
         <nav class="navbar">
             <div class="logo">
-                <img src="./images/doudous-tout-doux-logo.png" alt="Logo Les Doudous Tout Doux">
+                <img src="./images/doudous-tout-doux.svg" alt="Logo Les Doudous Tout Doux">
                 <h1>Les Doudous Tout Doux</h1>
             </div>
 
