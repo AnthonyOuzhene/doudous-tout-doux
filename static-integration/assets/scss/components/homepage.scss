@@ -16,11 +16,50 @@ h2 {
   text-align: center;
   font-size: 3rem;
   margin: 2rem 0 4rem;
+  letter-spacing: 0.1rem;
+}
+
+// Menu burger
+.hamburger {
+  display: none;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+/* Styles pour la section "bouton" */
+.button a {
+  letter-spacing: 0.1rem;
+  color: #fff;
+}
+
+.button {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #ff3366;
+  border-radius: 50px;
+  letter-spacing: 1px;
+}
+
+.button:hover {
+  background-color: pink;
+  scale: 1.1;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.8);
+}
+
+.button a:hover {
+  color: black;
 }
 
 /* Mise en page de la bannière */
 .banner {
-  background-image: url('https://picsum.photos/1920/1080');
+  background-image: url('https://source.unsplash.com/random/?sewing');
+  //background-image: url('https://picsum.photos/1920/1080/?sewing');
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -37,10 +76,10 @@ h2 {
   color: #ffffff;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   margin-bottom: 2rem;
+  letter-spacing: 0.2rem;
 }
 
-.banner a {
-  color: #000;
+.banner-btn {
   display: inline-block;
   font-size: 1.2rem;
   font-weight: 600;
@@ -51,9 +90,10 @@ h2 {
   text-transform: uppercase;
   background-color: #ff3366;
   border-radius: 50px;
+  letter-spacing: 1px;
 }
 
-.banner a:hover {
+.banner-btn:hover {
   background-color: #ffffff;
   color: #000;
   scale: 1.1;
@@ -70,7 +110,7 @@ h2 {
   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
   z-index: 9999;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   padding: 10px 30px;
   transition: all 0.3s ease-in-out;
@@ -95,9 +135,7 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-a:hover {
-  color: #ff3366;
-}
+
 
 .connexion {
   display: flex;
@@ -122,13 +160,12 @@ a:hover {
   align-items: center;
   font-size: 25px;
   color: #333333;
-  
 }
 
 .navbar .logo img {
   width: 20%;
   height: 20%;
-  margin-right: 2rem;
+  margin-right: 1rem;
 }
 
 .navbar .logo:hover {
@@ -154,8 +191,9 @@ a:hover {
 }
 
 .about-intro {
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
 }
 
 .about-text {
@@ -168,13 +206,12 @@ flex-direction: column;
   height: auto;
   max-width: 100%;
   margin-right: 5rem;
-  border-radius: 50%;
+  border-radius: 30%;
   box-shadow: 0px 1px 15px black;
 }
 
 
 /* Styles pour la section "produits" */
-
 #produits {
   text-align: center;
   padding: 3rem;
@@ -214,73 +251,13 @@ flex-direction: column;
   margin-bottom: 10px;
 }
 
-/* Styles pour la section "bouton" */
-.btn {
-  display: inline-block;
-  font-size: 1.2rem;
-  font-weight: 600;
-  padding: 1rem 2rem;
-  text-decoration: none;
-  color: #ffffff;
-  text-transform: uppercase;
-  background-color: #ff3366;
-  border-radius: 50px;
-  margin-bottom: 20px;
-}
-
-
 /* Footer */
 footer {
   background-color: #f2f2f2;
   padding: 3rem;
   font-size: 14px;
   color: #666;
-}
-
-.footer-links {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  margin-bottom: 10px;
-}
-
-.footer-links a {
-  color: #666;
-  text-decoration: none;
-  margin-right: 20px;
-  transition: color 0.2s ease-in-out;
-}
-
-.footer-links a:hover {
-  color: #333;
-}
-
-.footer-social {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer-social a {
-  display: inline-block;
-  color: #666;
-  text-decoration: none;
-  margin-right: 20px;
-  transition: color 0.2s ease-in-out;
-}
-
-.footer-social a:hover {
-  color: #333;
-}
-
-.footer-logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.footer-logo img {
-  width: 80px;
-  height: 80px;
 }
