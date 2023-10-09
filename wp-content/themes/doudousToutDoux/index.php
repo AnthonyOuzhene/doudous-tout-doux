@@ -17,8 +17,7 @@
     <header>
         <nav class="navbar">
             <div class="logo">
-                <img src="./images/doudous-tout-doux.svg" alt="Logo Les Doudous Tout Doux">
-                <h1>Les Doudous Tout Doux</h1>
+                <img src="/images/doudous-tout-doux-logo.png" alt="Logo Les Doudous Tout Doux">
             </div>
 
             <ul class="nav-links">
@@ -35,7 +34,7 @@
             </ul>
         </nav>
         <div class="banner">
-            <h2>Bienvenue sur Les Doudous Tout Doux !</h2>
+            <h1>Bienvenue sur Les Doudous Tout Doux</h1>
             <a href="#contact" class="btn">Nous Contacter</a>
         </div>
     </header>
